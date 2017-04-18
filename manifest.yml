@@ -1,0 +1,8 @@
+applications:
+- path: target/JavaHelloWorldApp.war
+  memory: 512M
+  instances: 1
+  domain: stage1.mybluemix.net
+  name: testapp1-siri
+  host: testapp1-siri
+  disk_quota: 1024M
